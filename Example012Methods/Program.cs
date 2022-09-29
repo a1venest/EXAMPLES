@@ -32,3 +32,9 @@ string Replase(string text, char oldValue,char newValue)
 }
 string newText = Replase(text, ' ', '|');
 Console.WriteLine(newText);
+Console.WriteLine();
+newText = Replase(newText, 'к', 'К');
+Console.WriteLine(newText);
+Console.WriteLine();
+newText = Replase(newText, 'С', 'с');
+Console.WriteLine(newText);
